@@ -19,10 +19,13 @@
 	],
 	"require" : {
 		"yiisoft/yii2" : "*"
-	},	
+	},
 	"autoload" : {
 		"psr-4" : {
 			"raoul2000\\widget\\html5sortable\\" : ""
 		}
+	},
+	"support" : {
+		"issues" : "https://github.com/raoul2000/yii2-html5sortable-widget/issues"
 	}
 }
