@@ -1,0 +1,28 @@
+{
+	"name" : "raoul2000/yii2-html5sortable-widget",
+	"description" : "Wrapper around the HTML5sortable JQuery plugin",
+	"type" : "yii2-extension",
+	"keywords" : [
+		"yii2",
+		"extension",
+		"jquery",
+		"plugin",
+		"sort",
+		"drag",
+		"drop"
+	],
+	"license" : "BSD-3-Clause",
+	"authors" : [{
+			"name" : "Raoul",
+			"email" : "Raoul@email.com"
+		}
+	],
+	"require" : {
+		"yiisoft/yii2" : "*"
+	},	
+	"autoload" : {
+		"psr-4" : {
+			"raoul2000\\widget\\html5sortable\\" : ""
+		}
+	}
+}
