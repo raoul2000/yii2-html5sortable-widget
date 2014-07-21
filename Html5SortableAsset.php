@@ -14,7 +14,8 @@ class Html5SortableAsset extends AssetBundle
 	public $depends = [
 		'yii\web\JqueryAsset',
 	];
-	public function init() {
+	public function init()
+	{
 		$this->sourcePath = __DIR__.'/assets';
 		return parent::init();
 	}
